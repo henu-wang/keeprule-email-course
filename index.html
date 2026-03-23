@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Email Course: Master Buffett's Investment Principles in 7 Days | KeepRule</title>
+    <meta name="description" content="Join our free 7-day email course and learn to invest like Warren Buffett. Covering moats, margin of safety, circle of competence, and more.">
+    <meta name="keywords" content="Warren Buffett, investment course, value investing, email course, margin of safety, economic moats, circle of competence, KeepRule">
+    <link rel="canonical" href="https://henu-wang.github.io/keeprule-email-course/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Master Buffett's Investment Principles in 7 Days — Free Email Course">
+    <meta property="og:description" content="A free 7-day email course that teaches you to think like the world's greatest investor. Covering moats, margin of safety, circle of competence, and more.">
+    <meta property="og:url" content="https://henu-wang.github.io/keeprule-email-course/">
+    <meta property="og:site_name" content="KeepRule">
+    <meta property="og:image" content="https://henu-wang.github.io/keeprule-email-course/og-image.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Master Buffett's Investment Principles in 7 Days — Free Email Course">
+    <meta name="twitter:description" content="A free 7-day email course that teaches you to think like the world's greatest investor.">
+    <meta name="twitter:image" content="https://henu-wang.github.io/keeprule-email-course/og-image.png">
+
+    <style>
+        *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+        :root{
+            --bg:#0b1120;
+            --bg-card:#131b2e;
+            --bg-card-hover:#1a2540;
+            --gold:#d4a849;
+            --gold-light:#f0d078;
+            --gold-dark:#b8922e;
+            --text:#e2e8f0;
+            --text-muted:#94a3b8;
+            --text-dim:#64748b;
+            --accent:#3b82f6;
+            --border:#1e293b;
+            --radius:12px;
+        }
+
+        html{scroll-behavior:smooth;font-size:16px}
+
+        body{
+            font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+            background:var(--bg);
+            color:var(--text);
+            line-height:1.6;
+            -webkit-font-smoothing:antialiased;
+        }
+
+        /* ---- Layout ---- */
+        .container{max-width:720px;margin:0 auto;padding:0 24px}
+
+        /* ---- Hero ---- */
+        .hero{
+            min-height:90vh;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            padding:80px 24px 60px;
+            position:relative;
+            overflow:hidden;
+        }
+        .hero::before{
+            content:'';position:absolute;top:-120px;left:50%;transform:translateX(-50%);
+            width:600px;height:600px;
+            background:radial-gradient(circle,rgba(212,168,73,.08) 0%,transparent 70%);
+            pointer-events:none;
+        }
+
+        .badge{
+            display:inline-block;
+            background:rgba(212,168,73,.12);
+            color:var(--gold);
+            font-size:.8rem;
+            font-weight:600;
+            letter-spacing:.08em;
+            text-transform:uppercase;
+            padding:6px 16px;
+            border-radius:100px;
+            border:1px solid rgba(212,168,73,.2);
+            margin-bottom:28px;
+        }
+
+        h1{
+            font-size:clamp(2rem,5vw,3.2rem);
+            font-weight:800;
+            line-height:1.15;
+            letter-spacing:-.02em;
+            margin-bottom:20px;
+            max-width:640px;
+        }
+        h1 span{color:var(--gold)}
+
+        .subtitle{
+            font-size:clamp(1.05rem,2.5vw,1.25rem);
+            color:var(--text-muted);
+            max-width:520px;
+            margin-bottom:40px;
+            line-height:1.65;
+        }
+
+        /* ---- Form ---- */
+        .signup-form{
+            display:flex;
+            gap:12px;
+            width:100%;
+            max-width:480px;
+        }
+        .signup-form input[type="email"]{
+            flex:1;
+            padding:14px 18px;
+            font-size:1rem;
+            border:1px solid var(--border);
+            border-radius:var(--radius);
+            background:var(--bg-card);
+            color:var(--text);
+            outline:none;
+            transition:border-color .2s;
+        }
+        .signup-form input[type="email"]::placeholder{color:var(--text-dim)}
+        .signup-form input[type="email"]:focus{border-color:var(--gold)}
+
+        .btn{
+            display:inline-flex;align-items:center;justify-content:center;
+            padding:14px 28px;
+            font-size:1rem;font-weight:700;
+            color:#0b1120;
+            background:linear-gradient(135deg,var(--gold-light),var(--gold),var(--gold-dark));
+            border:none;border-radius:var(--radius);
+            cursor:pointer;
+            white-space:nowrap;
+            transition:transform .15s,box-shadow .15s;
+            text-decoration:none;
+        }
+        .btn:hover{transform:translateY(-1px);box-shadow:0 6px 24px rgba(212,168,73,.25)}
+        .btn:active{transform:translateY(0)}
+
+        .form-note{
+            font-size:.82rem;
+            color:var(--text-dim);
+            margin-top:14px;
+        }
+
+        /* ---- Section ---- */
+        section{padding:80px 0}
+        .section-label{
+            text-align:center;
+            font-size:.78rem;
+            font-weight:700;
+            letter-spacing:.12em;
+            text-transform:uppercase;
+            color:var(--gold);
+            margin-bottom:12px;
+        }
+        .section-title{
+            text-align:center;
+            font-size:clamp(1.5rem,3.5vw,2.2rem);
+            font-weight:800;
+            margin-bottom:48px;
+            letter-spacing:-.01em;
+        }
+
+        /* ---- Curriculum ---- */
+        .curriculum{background:var(--bg)}
+        .day-list{
+            display:flex;
+            flex-direction:column;
+            gap:16px;
+        }
+        .day-card{
+            display:flex;
+            align-items:flex-start;
+            gap:20px;
+            padding:24px;
+            background:var(--bg-card);
+            border:1px solid var(--border);
+            border-radius:var(--radius);
+            transition:background .2s,border-color .2s;
+        }
+        .day-card:hover{background:var(--bg-card-hover);border-color:rgba(212,168,73,.2)}
+
+        .day-num{
+            flex-shrink:0;
+            width:48px;height:48px;
+            display:flex;align-items:center;justify-content:center;
+            background:rgba(212,168,73,.1);
+            color:var(--gold);
+            font-weight:800;font-size:.85rem;
+            border-radius:10px;
+        }
+        .day-content h3{font-size:1.05rem;font-weight:700;margin-bottom:4px}
+        .day-content p{font-size:.92rem;color:var(--text-muted);line-height:1.55}
+
+        /* ---- Social Proof ---- */
+        .proof{
+            background:linear-gradient(180deg,var(--bg) 0%,#0f1729 100%);
+            text-align:center;
+        }
+        .proof-grid{
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:24px;
+            max-width:600px;
+            margin:0 auto;
+        }
+        .proof-card{
+            padding:28px 20px;
+            background:var(--bg-card);
+            border:1px solid var(--border);
+            border-radius:var(--radius);
+        }
+        .proof-card .number{
+            font-size:2rem;font-weight:800;color:var(--gold);margin-bottom:6px;
+        }
+        .proof-card .label{font-size:.9rem;color:var(--text-muted)}
+
+        /* ---- CTA Bottom ---- */
+        .cta-bottom{
+            text-align:center;
+            padding:80px 24px;
+            background:var(--bg);
+        }
+        .cta-bottom h2{
+            font-size:clamp(1.4rem,3vw,2rem);
+            font-weight:800;
+            margin-bottom:12px;
+        }
+        .cta-bottom p{
+            color:var(--text-muted);
+            margin-bottom:36px;
+            font-size:1.05rem;
+        }
+        .cta-bottom .signup-form{margin:0 auto}
+
+        /* ---- Footer ---- */
+        footer{
+            text-align:center;
+            padding:40px 24px;
+            border-top:1px solid var(--border);
+            font-size:.85rem;
+            color:var(--text-dim);
+        }
+        footer a{color:var(--gold);text-decoration:none}
+        footer a:hover{text-decoration:underline}
+
+        /* ---- Toast ---- */
+        .toast{
+            position:fixed;bottom:32px;left:50%;transform:translateX(-50%) translateY(80px);
+            background:#166534;color:#fff;padding:14px 28px;border-radius:var(--radius);
+            font-size:.95rem;font-weight:600;
+            opacity:0;transition:all .35s ease;
+            pointer-events:none;z-index:100;
+        }
+        .toast.show{transform:translateX(-50%) translateY(0);opacity:1}
+
+        /* ---- Responsive ---- */
+        @media(max-width:600px){
+            .hero{padding:60px 20px 48px}
+            .signup-form{flex-direction:column}
+            .signup-form .btn{width:100%}
+            .proof-grid{grid-template-columns:1fr}
+            .day-card{padding:18px;gap:14px}
+            .day-num{width:40px;height:40px;font-size:.78rem;border-radius:8px}
+        }
+    </style>
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+    <span class="badge">Free 7-Day Email Course</span>
+    <h1>Master <span>Buffett's Investment Principles</span> in 7 Days</h1>
+    <p class="subtitle">A free email course that teaches you to think like the world's greatest investor &mdash; one lesson per day, straight to your inbox.</p>
+
+    <!--
+        SETUP: Replace YOUR_FORM_ID with your Formspree form ID.
+        1. Go to https://formspree.io and create a free account
+        2. Create a new form
+        3. Copy the form ID (the part after /f/ in the endpoint URL)
+        4. Replace YOUR_FORM_ID below
+    -->
+    <form class="signup-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" id="hero-form">
+        <input type="email" name="email" placeholder="Enter your email address" required autocomplete="email" aria-label="Email address">
+        <button type="submit" class="btn">Start Learning Free</button>
+    </form>
+    <p class="form-note">100% free. No spam. Unsubscribe anytime.</p>
+</section>
+
+<!-- ============ CURRICULUM ============ -->
+<section class="curriculum">
+    <div class="container">
+        <p class="section-label">The Curriculum</p>
+        <h2 class="section-title">What You'll Learn in 7 Days</h2>
+
+        <div class="day-list">
+            <div class="day-card">
+                <div class="day-num">DAY 1</div>
+                <div class="day-content">
+                    <h3>The Foundation &mdash; Buffett's Core Investment Philosophy</h3>
+                    <p>Discover the timeless principles that turned $10,000 into $100+ billion and why simplicity beats complexity.</p>
+                </div>
+            </div>
+            <div class="day-card">
+                <div class="day-num">DAY 2</div>
+                <div class="day-content">
+                    <h3>Circle of Competence &mdash; Invest Only in What You Understand</h3>
+                    <p>Learn how to define your circle, stay inside it, and avoid the costly mistakes that come from straying.</p>
+                </div>
+            </div>
+            <div class="day-card">
+                <div class="day-num">DAY 3</div>
+                <div class="day-content">
+                    <h3>Margin of Safety &mdash; The Most Important Number in Investing</h3>
+                    <p>Understand the concept that protects your downside and why paying less is the single best predictor of returns.</p>
+                </div>
+            </div>
+            <div class="day-card">
+                <div class="day-num">DAY 4</div>
+                <div class="day-content">
+                    <h3>Economic Moats &mdash; How to Find Companies That Last</h3>
+                    <p>Identify the durable competitive advantages that separate great businesses from average ones.</p>
+                </div>
+            </div>
+            <div class="day-card">
+                <div class="day-num">DAY 5</div>
+                <div class="day-content">
+                    <h3>Mr. Market &mdash; Emotions Are the Enemy</h3>
+                    <p>Master the psychological framework that lets you profit from others' fear and greed instead of falling victim to it.</p>
+                </div>
+            </div>
+            <div class="day-card">
+                <div class="day-num">DAY 6</div>
+                <div class="day-content">
+                    <h3>The Scorecard &mdash; Building Your Investment Checklist</h3>
+                    <p>Create a systematic evaluation process so you never skip a critical step when analyzing a stock.</p>
+                </div>
+            </div>
+            <div class="day-card">
+                <div class="day-num">DAY 7</div>
+                <div class="day-content">
+                    <h3>Putting It All Together &mdash; Your Rules-Based System</h3>
+                    <p>Combine everything into a personal investment framework you can use for the rest of your life.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============ SOCIAL PROOF ============ -->
+<section class="proof">
+    <div class="container">
+        <p class="section-label">Why This Course</p>
+        <h2 class="section-title">Built on Decades of Wisdom</h2>
+
+        <div class="proof-grid">
+            <div class="proof-card">
+                <div class="number">500+</div>
+                <div class="label">Investment principles curated from the world's greatest investors</div>
+            </div>
+            <div class="proof-card">
+                <div class="number">60+</div>
+                <div class="label">Years of Buffett's shareholder letters analyzed and distilled</div>
+            </div>
+            <div class="proof-card">
+                <div class="number">7</div>
+                <div class="label">Concise lessons delivered to your inbox &mdash; one per day</div>
+            </div>
+            <div class="proof-card">
+                <div class="number">0</div>
+                <div class="label">Cost &mdash; completely free, no credit card needed</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============ BOTTOM CTA ============ -->
+<section class="cta-bottom">
+    <div class="container">
+        <h2>Ready to Invest Like Buffett?</h2>
+        <p>Join thousands of investors building a rules-based approach to the market.</p>
+
+        <form class="signup-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" id="bottom-form">
+            <input type="email" name="email" placeholder="Enter your email address" required autocomplete="email" aria-label="Email address">
+            <button type="submit" class="btn">Start Learning Free</button>
+        </form>
+        <p class="form-note">100% free. No spam. Unsubscribe anytime.</p>
+    </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+    <p>Brought to you by <a href="https://keeprule.com" target="_blank" rel="noopener">KeepRule.com</a> &mdash; The Ultimate Investment Principles Guide</p>
+</footer>
+
+<!-- ============ TOAST ============ -->
+<div class="toast" id="toast">Thanks! Check your inbox for Day 1.</div>
+
+<script>
+document.querySelectorAll('form').forEach(function(form) {
+    form.addEventListener('submit', function(e) {
+        var action = form.getAttribute('action');
+        // If Formspree ID hasn't been configured, show alert
+        if (action.indexOf('YOUR_FORM_ID') !== -1) {
+            e.preventDefault();
+            alert('Form not configured yet. Replace YOUR_FORM_ID in index.html with your Formspree form ID.\n\nGet one free at https://formspree.io');
+            return;
+        }
+
+        // Use fetch for async submit
+        e.preventDefault();
+        var data = new FormData(form);
+        var btn = form.querySelector('button');
+        btn.textContent = 'Sending...';
+        btn.disabled = true;
+
+        fetch(action, {
+            method: 'POST',
+            body: data,
+            headers: { 'Accept': 'application/json' }
+        }).then(function(r) {
+            if (r.ok) {
+                form.reset();
+                var toast = document.getElementById('toast');
+                toast.classList.add('show');
+                setTimeout(function(){ toast.classList.remove('show'); }, 4000);
+            } else {
+                alert('Something went wrong. Please try again.');
+            }
+        }).catch(function() {
+            alert('Network error. Please try again.');
+        }).finally(function() {
+            btn.textContent = 'Start Learning Free';
+            btn.disabled = false;
+        });
+    });
+});
+</script>
+
+</body>
+</html>
